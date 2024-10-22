@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">tarea2nz</string>
+
+    <!---->
+    <string name="title">Super Mario Bros</string>
+    <string name="characters">personajes</string>
+    <string name="characters_list">Lista de personajes</string>
+
+
+    <!-- Nombre, descripción y habilidades de Mario -->
+    <string name="mario_name">Mario</string>
+    <string name="mario_description">El protagonista del juego</string>
+    <string name="mario_abilities">Salta alto, Usa power-ups como Super Champiñón, Flor de Fuego, Estrella</string>
+
+    <!-- Nombre, descripción y habilidades de Luigi -->
+    <string name="luigi_name">Luigi</string>
+    <string name="luigi_description">El hermano de Mario</string>
+    <string name="luigi_abilities">Salta más alto que Mario, Corre rápido, Experto cazafantasmas</string>
+
+    <!-- Nombre, descripción y habilidades de Peach -->
+    <string name="peach_name">Peach</string>
+    <string name="peach_description">La princesa del Reino Champiñón</string>
+    <string name="peach_abilities">Puede flotar en el aire por un corto tiempo, Habilidades mágicas</string>
+
+    <!-- Nombre, descripción y habilidades de Toad -->
+    <string name="toad_name">Toad</string>
+    <string name="toad_description">Habitante del Reino Champiñón</string>
+    <string name="toad_abilities">Leal asistente de la Princesa Peach, Alta velocidad y resistencia</string>
+
+    <!-- Nombre, descripción y habilidades de Yoshi -->
+    <string name="yoshi_name">Yoshi</string>
+    <string name="yoshi_description">Amigo y aliado de Mario</string>
+    <string name="yoshi_abilities">Puede comer enemigos con su lengua, Salta alto y puede volar brevemente</string>
+
+    <!-- Nombre, descripción y habilidades de Bowser -->
+    <string name="bowser_name">Bowser</string>
+    <string name="bowser_description">Rey de los Koopa y principal antagonista</string>
+    <string name="bowser_abilities">Lanza bolas de fuego, Fuerza masiva, Resistente y astuto</string>
+
+    <!-- Nombre, descripción y habilidades de Wario -->
+    <string name="wario_name">Wario</string>
+    <string name="wario_description">Rival de Mario</string>
+    <string name="wario_abilities">Súper fuerte, Resistente, Codicioso y con habilidades de pisotón</string>
+
+    <!-- Nombre, descripción y habilidades de Koopa Troopa -->
+    <string name="koopa_name">Koopa Troopa</string>
+    <string name="koopa_description">Soldado bajo el mando de Bowser</string>
+    <string name="koopa_abilities">Se oculta en su caparazón para protegerse, Algunos pueden volar (Paratroopas)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="detail_character">detalles del personaje</string>
+
+</resources>

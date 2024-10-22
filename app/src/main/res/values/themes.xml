@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Estilo base para el tema de la aplicación Super Mario -->
+    <style name="Base.Theme.SuperMario" parent="Theme.Material3.DayNight">
+
+<!--    Colores principales -->
+   <item name="colorPrimary">@color/background_main_activity</item>
+<!--    <item name="colorPrimaryVariant">@color/background_card</item>-->
+<!--    <item name="colorOnPrimary">@color/white</item>-->
+
+<!--     Colores secundarios -->
+<!--    <item name="colorSecondary">@color/background_detail_activity</item>-->
+<!--    <item name="colorSecondaryVariant">@color/black</item>-->
+<!--    <item name="colorOnSecondary">@color/text_color_detail_activity</item>-->
+
+<!--     Colores de la barra de estado y navegación -->
+<!--&lt;!&ndash;    <item name="android:statusBarColor">@color/background_main_activity</item>&ndash;&gt;-->
+<!--&lt;!&ndash;    <item name="android:navigationBarColor">@color/background_card</item>&ndash;&gt;-->
+
+<!--    Personalización de botones -->
+<!--    <item name="buttonStyle">@style/Widget.AppCompat.Button</item>-->
+<!--    <item name="colorButton">@color/background_card</item>-->
+<!--    <item name="colorOnButton">@color/white</item>-->
+
+<!--    Personalización de texto -->
+<!--&lt;!&ndash;    <item name="android:textColor">@color/black</item>&ndash;&gt;-->
+<!--&lt;!&ndash;    <item name="android:textColorPrimary">@color/black</item>&ndash;&gt;-->
+<!--&lt;!&ndash;    <item name="android:textColorSecondary">@color/white</item>&ndash;&gt;-->
+</style>
+
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+// colores para pantalla principal
+    <color name="background_main_activity">#D3673AB7</color>
+    <color name="subtitle_text_main_activity">#FFFFFFFF</color>
+
+    //colores recycler view
+    <color name="background_card">#4CAF50</color>
+
+    //colores pantalla de detalles
+    <color name="background_detail_activity">#4CAF50</color>
+    <color name="text_color_detail_activity">#FF000000</color>
+</resources>
