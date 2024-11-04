@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <!-- App name -->
+        <string name="app_name">task2nz</string>
+
+        <!-- Navigation menu descriptions -->
+        <string name="open_drawer">Open menu</string> <!-- Text to open the navigation menu -->
+        <string name="close_drawer">Close menu</string> <!-- Text to close the navigation menu -->
+        <string name="header_image_desc">Profile picture</string> <!-- Description of the profile image in the header -->
+
+        <!-- Main titles and sections -->
+        <string name="title">Super Mario Bros</string> <!-- Main title of the app -->
+        <string name="characters">Characters</string> <!-- Header for the character list -->
+        <string name="characters_list">Character list</string> <!-- Text describing the character list -->
+        <string name="detail_character">Character details</string> <!-- Title for the character details section -->
+
+        <!-- Details for each character: name, description, and abilities -->
+        <!-- Mario -->
+        <string name="mario_name">Mario</string> <!-- Name of Mario -->
+        <string name="mario_description">The main protagonist of the game</string> <!-- Brief description of Mario -->
+        <string name="mario_abilities">Jumps high, Uses power-ups like Super Mushroom, Fire Flower, Star</string> <!-- Mario's abilities -->
+
+        <!-- Luigi -->
+        <string name="luigi_name">Luigi</string> <!-- Name of Luigi -->
+        <string name="luigi_description">Mario brother</string> <!-- Brief description of Luigi -->
+        <string name="luigi_abilities">Jumps higher than Mario, Runs fast, Ghost-hunting expert</string> <!-- Luigi's abilities -->
+
+        <!-- Peach -->
+        <string name="peach_name">Peach</string> <!-- Name of Peach -->
+        <string name="peach_description">The princess of the Mushroom Kingdom</string> <!-- Brief description of Peach -->
+        <string name="peach_abilities">Can float in the air for a short time, Magical abilities</string> <!-- Peach's abilities -->
+
+        <!-- Toad -->
+        <string name="toad_name">Toad</string> <!-- Name of Toad -->
+        <string name="toad_description">Resident of the Mushroom Kingdom</string> <!-- Brief description of Toad -->
+        <string name="toad_abilities">Loyal assistant to Princess Peach, High speed and endurance</string> <!-- Toad's abilities -->
+
+        <!-- Yoshi -->
+        <string name="yoshi_name">Yoshi</string> <!-- Name of Yoshi -->
+        <string name="yoshi_description">Friend and ally of Mario</string> <!-- Brief description of Yoshi -->
+        <string name="yoshi_abilities">Can eat enemies with his tongue, Jumps high and can fly briefly</string> <!-- Yoshi's abilities -->
+
+        <!-- Bowser -->
+        <string name="bowser_name">Bowser</string> <!-- Name of Bowser -->
+        <string name="bowser_description">King of the Koopas and main antagonist</string> <!-- Brief description of Bowser -->
+        <string name="bowser_abilities">Throws fireballs, Massive strength, Tough and cunning</string> <!-- Bowser's abilities -->
+
+        <!-- Wario -->
+        <string name="wario_name">Wario</string> <!-- Name of Wario -->
+        <string name="wario_description">Mario rival</string> <!-- Brief description of Wario -->
+        <string name="wario_abilities">Super strong, Resilient, Greedy with stomping abilities</string> <!-- Wario's abilities -->
+
+        <!-- Koopa Troopa -->
+        <string name="koopa_name">Koopa Troopa</string> <!-- Name of Koopa Troopa -->
+        <string name="koopa_description">Soldier under Bowser command</string> <!-- Brief description of Koopa Troopa -->
+        <string name="koopa_abilities">Hides in its shell for protection, Some can fly (Paratroopas)</string> <!-- Koopa Troopa's abilities -->
+
+        <!-- "About" section -->
+        <string name="about">About...</string> <!-- Text for the "About" section -->
+
+        <!-- Image descriptions -->
+        <string name="Image_description">character image</string> <!-- Description of the character image -->
+
+        <!-- Navigation and settings -->
+        <string name="home">Home</string> <!-- Text for the home button -->
+        <string name="settings">Settings</string> <!-- Text for the settings button -->
+        <string name="language">Language</string> <!-- Text for the language selection -->
+        <string name="select_language">select language</string> <!-- Instruction to select language -->
+        <string name="language_icon">language icon</string> <!-- Description of the language icon -->
+        <string name="spanish">Spanish</string> <!-- Option for Spanish language -->
+        <string name="english">English</string> <!-- Option for English language -->
+
+</resources>
