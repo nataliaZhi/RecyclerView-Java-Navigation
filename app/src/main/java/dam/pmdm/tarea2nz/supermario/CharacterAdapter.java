@@ -6,9 +6,7 @@ import android.view.ViewGroup;
 import android.view.LayoutInflater;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import java.util.ArrayList;
-
 import dam.pmdm.tarea2nz.databinding.ItemCharacterBinding;
 
 

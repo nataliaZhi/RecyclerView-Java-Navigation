@@ -1,53 +1,71 @@
 <resources>
+    <!-- Nombre de la aplicación -->
     <string name="app_name">tarea2nz</string>
 
-    <!---->
-    <string name="title">Super Mario Bros</string>
-    <string name="characters">personajes</string>
-    <string name="characters_list">Lista de personajes</string>
+    <!-- Descripciones de los elementos de la navegación del menú -->
+    <string name="open_drawer">Abrir menú</string> <!-- Texto para abrir el menú de navegación -->
+    <string name="close_drawer">Cerrar menú</string> <!-- Texto para cerrar el menú de navegación -->
+    <string name="header_image_desc">Imagen de perfil</string> <!-- Descripción de la imagen de perfil en el encabezado -->
 
+    <!-- Títulos y secciones principales -->
+    <string name="title">Super Mario Bros</string> <!-- Título principal de la aplicación -->
+    <string name="characters">Personajes</string> <!-- Encabezado de la lista de personajes -->
+    <string name="characters_list">Lista de personajes</string> <!-- Texto que describe la lista de personajes -->
+    <string name="detail_character">Detalles del personaje</string> <!-- Título de la sección de detalles de un personaje -->
 
-    <!-- Nombre, descripción y habilidades de Mario -->
-    <string name="mario_name">Mario</string>
-    <string name="mario_description">El protagonista del juego</string>
-    <string name="mario_abilities">Salta alto, Usa power-ups como Super Champiñón, Flor de Fuego, Estrella</string>
+    <!-- Detalles de cada personaje: nombre, descripción y habilidades -->
+    <!-- Mario -->
+    <string name="mario_name">Mario</string> <!-- Nombre del personaje Mario -->
+    <string name="mario_description">El protagonista del juego</string> <!-- Breve descripción de Mario -->
+    <string name="mario_abilities">Salta alto, Usa power-ups como Super Champiñón, Flor de Fuego, Estrella</string> <!-- Habilidades de Mario -->
 
-    <!-- Nombre, descripción y habilidades de Luigi -->
-    <string name="luigi_name">Luigi</string>
-    <string name="luigi_description">El hermano de Mario</string>
-    <string name="luigi_abilities">Salta más alto que Mario, Corre rápido, Experto cazafantasmas</string>
+    <!-- Luigi -->
+    <string name="luigi_name">Luigi</string> <!-- Nombre del personaje Luigi -->
+    <string name="luigi_description">El hermano de Mario</string> <!-- Breve descripción de Luigi -->
+    <string name="luigi_abilities">Salta más alto que Mario, Corre rápido, Experto cazafantasmas</string> <!-- Habilidades de Luigi -->
 
-    <!-- Nombre, descripción y habilidades de Peach -->
-    <string name="peach_name">Peach</string>
-    <string name="peach_description">La princesa del Reino Champiñón</string>
-    <string name="peach_abilities">Puede flotar en el aire por un corto tiempo, Habilidades mágicas</string>
+    <!-- Peach -->
+    <string name="peach_name">Peach</string> <!-- Nombre del personaje Peach -->
+    <string name="peach_description">La princesa del Reino Champiñón</string> <!-- Breve descripción de Peach -->
+    <string name="peach_abilities">Puede flotar en el aire por un corto tiempo, Habilidades mágicas</string> <!-- Habilidades de Peach -->
 
-    <!-- Nombre, descripción y habilidades de Toad -->
-    <string name="toad_name">Toad</string>
-    <string name="toad_description">Habitante del Reino Champiñón</string>
-    <string name="toad_abilities">Leal asistente de la Princesa Peach, Alta velocidad y resistencia</string>
+    <!-- Toad -->
+    <string name="toad_name">Toad</string> <!-- Nombre del personaje Toad -->
+    <string name="toad_description">Habitante del Reino Champiñón</string> <!-- Breve descripción de Toad -->
+    <string name="toad_abilities">Leal asistente de la Princesa Peach, Alta velocidad y resistencia</string> <!-- Habilidades de Toad -->
 
-    <!-- Nombre, descripción y habilidades de Yoshi -->
-    <string name="yoshi_name">Yoshi</string>
-    <string name="yoshi_description">Amigo y aliado de Mario</string>
-    <string name="yoshi_abilities">Puede comer enemigos con su lengua, Salta alto y puede volar brevemente</string>
+    <!-- Yoshi -->
+    <string name="yoshi_name">Yoshi</string> <!-- Nombre del personaje Yoshi -->
+    <string name="yoshi_description">Amigo y aliado de Mario</string> <!-- Breve descripción de Yoshi -->
+    <string name="yoshi_abilities">Puede comer enemigos con su lengua, Salta alto y puede volar brevemente</string> <!-- Habilidades de Yoshi -->
 
-    <!-- Nombre, descripción y habilidades de Bowser -->
-    <string name="bowser_name">Bowser</string>
-    <string name="bowser_description">Rey de los Koopa y principal antagonista</string>
-    <string name="bowser_abilities">Lanza bolas de fuego, Fuerza masiva, Resistente y astuto</string>
+    <!-- Bowser -->
+    <string name="bowser_name">Bowser</string> <!-- Nombre del personaje Bowser -->
+    <string name="bowser_description">Rey de los Koopa y principal antagonista</string> <!-- Breve descripción de Bowser -->
+    <string name="bowser_abilities">Lanza bolas de fuego, Fuerza masiva, Resistente y astuto</string> <!-- Habilidades de Bowser -->
 
-    <!-- Nombre, descripción y habilidades de Wario -->
-    <string name="wario_name">Wario</string>
-    <string name="wario_description">Rival de Mario</string>
-    <string name="wario_abilities">Súper fuerte, Resistente, Codicioso y con habilidades de pisotón</string>
+    <!-- Wario -->
+    <string name="wario_name">Wario</string> <!-- Nombre del personaje Wario -->
+    <string name="wario_description">Rival de Mario</string> <!-- Breve descripción de Wario -->
+    <string name="wario_abilities">Súper fuerte, Resistente, Codicioso y con habilidades de pisotón</string> <!-- Habilidades de Wario -->
 
-    <!-- Nombre, descripción y habilidades de Koopa Troopa -->
-    <string name="koopa_name">Koopa Troopa</string>
-    <string name="koopa_description">Soldado bajo el mando de Bowser</string>
-    <string name="koopa_abilities">Se oculta en su caparazón para protegerse, Algunos pueden volar (Paratroopas)</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="detail_character">detalles del personaje</string>
+    <!-- Koopa Troopa -->
+    <string name="koopa_name">Koopa Troopa</string> <!-- Nombre del personaje Koopa Troopa -->
+    <string name="koopa_description">Soldado bajo el mando de Bowser</string> <!-- Breve descripción de Koopa Troopa -->
+    <string name="koopa_abilities">Se oculta en su caparazón para protegerse, Algunos pueden volar (Paratroopas)</string> <!-- Habilidades de Koopa Troopa -->
 
+    <!-- Sección de "Acerca de" -->
+    <string name="about">Acerca de...</string> <!-- Texto para la sección de "Acerca de" -->
+
+    <!-- Descripción de imágenes -->
+    <string name="Image_description">imagen de personaje</string> <!-- Descripción de la imagen de un personaje -->
+
+    <!-- Navegación y configuración -->
+    <string name="home">Home</string> <!-- Texto para el botón de inicio -->
+    <string name="settings">Settings</string> <!-- Texto para el botón de configuración -->
+    <string name="language">Idioma</string> <!-- Texto para la selección de idioma -->
+    <string name="select_language">selecciona idioma</string> <!-- Instrucción para seleccionar idioma -->
+    <string name="language_icon">language icon</string> <!-- Descripción del icono de idioma -->
+    <string name="spanish">Español</string> <!-- Opción de idioma español -->
+    <string name="english">Ingles</string> <!-- Opción de idioma inglés -->
 </resources>

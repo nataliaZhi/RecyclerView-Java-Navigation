@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Opción Home en el menú principal -->
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/home" />
+
+    <!-- Opción Settings en el menú principal, con un submenu dentro -->
+    <item
+        android:id="@+id/nav_settings"
+        android:title="@string/settings">
+
+        <!-- Submenú dentro de Settings -->
+        <menu>
+            <!-- Opción Language dentro de Settings -->
+            <item
+                android:id="@+id/nav_language"
+                android:title="@string/language" />
+        </menu>
+    </item>
+
+</menu>

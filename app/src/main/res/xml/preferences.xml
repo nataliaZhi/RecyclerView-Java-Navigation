@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <SwitchPreferenceCompat
+            android:key="switch_language"
+            android:summary="Elige el idioma de la aplicación"
+            android:defaultValue="false"
+            android:switchTextOn="@string/english"
+            app:switchTextOff="@string/spanish"
+            />
+
+</PreferenceScreen>
+
+<!--    android:widgetLayout="@layout/switch_with_icon"-->
