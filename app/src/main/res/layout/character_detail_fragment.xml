@@ -1,24 +1,21 @@
+<!-- Layout principal que contiene toda la vista -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_detail_activity"
     android:gravity="center"
-    android:orientation="vertical"
+    android:orientation="vertical">
 
-
-    >
-
-
+    <!-- Imagen de Mario que se usará como imagen destacada -->
     <ImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:contentDescription="@string/Image_description"
-        tools:src="@drawable/mario"
+        tools:src="@drawable/mario" />
 
-        />
-
+    <!-- Nombre de un personaje, utilizando estilo predefinido -->
     <TextView
         android:id="@+id/name"
         style="@style/TextStyleName"
@@ -26,6 +23,7 @@
         android:layout_height="wrap_content"
         tools:text="@string/bowser_name" />
 
+    <!-- Descripción del personaje, con un estilo definido -->
     <TextView
         android:id="@+id/description"
         style="@style/TextStyle"
@@ -33,12 +31,12 @@
         android:layout_height="wrap_content"
         tools:text="@string/bowser_description" />
 
+    <!-- Habilidades del personaje, con el mismo estilo que la descripción -->
     <TextView
         android:id="@+id/abilities"
         style="@style/TextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="@string/bowser_abilities" />
-
 
 </LinearLayout>

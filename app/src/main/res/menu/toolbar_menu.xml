@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!--Menu de la toolbar-->
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Opción para mostrar el diálogo "Acerca de..." -->
     <item
         android:id="@+id/action_about"
-        android:title="@string/about"
         android:icon="@drawable/ic_info"
+        android:title="@string/about_title"
         app:showAsAction="always" />
 </menu>

@@ -1,48 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
-
-
-
     <!-- Estilo para RecyclerView -->
-    <style name="RecyclerViewStyle" >
-
-
-
+    <style name="RecyclerViewStyle">
+        <item name="background">@color/background_list_fragment</item> <!-- Color de fondo -->
+        <item name="android:paddingTop">8dp</item> <!-- Espaciado superior -->
     </style>
 
     <!-- Estilo para CardView -->
-    <style name="CardViewStyle" parent="Widget.MaterialComponents.CardView" >
-
-        <item name="cardBackgroundColor">@color/background_card</item>
-        <item name="cardElevation">4dp</item>
-        <item name="cardCornerRadius">8dp</item>
-
+    <style name="CardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/background_card</item> <!-- Color de fondo de la tarjeta -->
+        <item name="cardElevation">4dp</item> <!-- Elevación para sombra -->
+        <item name="cardCornerRadius">8dp</item> <!-- Radio de las esquinas -->
     </style>
-
-
 
     <!-- Estilo para TextViews -->
     <style name="TextStyle">
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@android:color/black</item>
-        <item name="android:padding">8dp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">16sp</item> <!-- Tamaño del texto -->
+        <item name="android:textColor">@android:color/white</item> <!-- Color del texto -->
+        <item name="android:padding">8dp</item> <!-- Espaciado interno -->
+        <item name="android:textStyle">bold</item> <!-- Estilo de texto en negrita -->
+        <item name="android:textAlignment">center</item> <!-- Alineación del texto al centro -->
     </style>
 
+    <!-- Estilo personalizado para la Toolbar -->
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item> <!-- Fondo de la Toolbar -->
+        <item name="android:titleTextAppearance">@style/CustomToolbarTitle</item> <!-- Estilo del título -->
+        <item name="android:elevation">4dp</item> <!-- Elevación para efecto de sombra -->
+    </style>
+
+    <!-- Estilo para el texto del título de la Toolbar -->
+    <style name="CustomToolbarTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/white</item> <!-- Color del texto -->
+        <item name="android:textSize">20sp</item> <!-- Tamaño del texto -->
+        <item name="android:fontFamily">@font/modak</item> <!-- Fuente personalizada (si la tienes) -->
+    </style>
+
+    <!-- Estilo para textos de nombre -->
     <style name="TextStyleName">
-        <item name="android:textSize">24sp</item>
-        <item name="android:textColor">@color/text_name_color_detail_activity</item>
-        <item name="android:padding">8dp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">24sp</item> <!-- Tamaño del texto -->
+        <item name="android:textColor">@color/text_name_color_detail_activity</item> <!-- Color del texto -->
+        <item name="android:padding">8dp</item> <!-- Espaciado interno -->
+        <item name="android:textStyle">bold</item> <!-- Texto en negrita -->
+        <item name="android:textAllCaps">true</item> <!-- Texto en mayúsculas -->
     </style>
 
+    <!-- Estilo para texto de ítems de menú -->
+    <style name="MyMenuItemTextStyle">
+        <item name="android:textSize">16sp</item> <!-- Tamaño del texto -->
+        <item name="android:padding">8dp</item> <!-- Espaciado interno -->
+        <item name="android:textStyle">bold</item> <!-- Texto en negrita -->
+        <item name="android:textAllCaps">true</item> <!-- Texto en mayúsculas -->
+    </style>
 
+    <!-- Estilo para NavigationView -->
+    <style name="NavigationViewStyle" parent="Widget.Design.NavigationView">
+        <item name="itemTextAppearance">@style/MyMenuItemTextStyle</item> <!-- Estilo del texto de ítems -->
+        <item name="android:background">@color/white</item> <!-- Fondo blanco -->
+    </style>
 
-
-
-
+    <!-- Estilo para AlertDialog -->
+    <style name="AlertDialogViewStyle" parent="ThemeOverlay.Material3.MaterialAlertDialog.Centered">
+        <item name="android:textSize">24sp</item> <!-- Tamaño del texto -->
+        <item name="android:gravity">center</item> <!-- Texto centrado -->
+        <item name="android:fontFamily">@font/modak</item> <!-- Fuente personalizada -->
+    </style>
 </resources>

@@ -1,25 +1,26 @@
 package dam.pmdm.tarea2nz.supermario;
 
-
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.SwitchPreferenceCompat;
 
 import dam.pmdm.tarea2nz.R;
 
+
 /**
- * Fragmento de configuración que permite al usuario cambiar las preferencias de la aplicación.
- * Incluye un interruptor para cambiar el idioma de la aplicación entre español e inglés.
+ * Fragmento que permite la configuración de la aplicación, en particular el cambio de idioma
+ * utilizando un SwitchPreference. Este fragmento lee y guarda la preferencia de idioma en SharedPreferences.
  */
 public class SettingsFragment extends PreferenceFragmentCompat {
 
     /**
-     * Carga las preferencias desde un archivo XML y configura el comportamiento del interruptor de idioma.
+     * Este método se ejecuta al crear las preferencias del fragmento. Carga las preferencias desde
+     * un archivo XML y configura un listener para el cambio de idioma.
      *
-     * @param savedInstanceState Estado previamente guardado del fragmento, si existe.
-     * @param rootKey            La clave raíz del fragmento de preferencias, si se usa una jerarquía de preferencias anidadas.
+     * @param savedInstanceState El estado guardado del fragmento (si lo hubiera).
+     * @param rootKey La clave raíz para las preferencias (normalmente puede ser null).
      */
     @Override
     public void onCreatePreferences(@Nullable Bundle savedInstanceState, @Nullable String rootKey) {
@@ -27,36 +28,50 @@ public class SettingsFragment extends PreferenceFragmentCompat {
         // Cargar las preferencias desde el archivo XML de recursos
         setPreferencesFromResource(R.xml.preferences, rootKey);
 
-        // Obtener referencia al SwitchPreferenceCompat de cambio de idioma
+        // Referencia al SwitchPreferenceCompat que permite cambiar el idioma
         SwitchPreferenceCompat switchLanguage = findPreference("switch_language");
 
-        // Configurar el estado inicial del Switch basándose en las preferencias compartidas
         if (switchLanguage != null) {
-            // Obtener las preferencias compartidas para recuperar el estado actual del interruptor
-            SharedPreferences prefs = getPreferenceManager().getSharedPreferences();
-            boolean isSpanish = prefs.getBoolean("switch_language", true); // Se asume que el idioma predeterminado es español
+            // Recuperar el idioma actual desde SharedPreferences
+            String currentLanguage = PreferencesHelper.getSavedLanguage(requireContext());
+            boolean isSpanish = currentLanguage.equals("es");
+
+            // Configurar el estado inicial del switch (activo si el idioma es español)
             switchLanguage.setChecked(isSpanish);
 
-            /*
-              Configurar un listener para manejar los cambios en el estado del interruptor de idioma.
-              Cuando se cambia el estado, se actualiza el idioma de la aplicación y se reinicia la actividad.
-             */
+            // Configurar un listener para manejar el cambio de estado del switch
             switchLanguage.setOnPreferenceChangeListener((preference, newValue) -> {
-                boolean isChecked = (Boolean) newValue; // Obtener el nuevo estado como un valor booleano
+                boolean isChecked = (Boolean) newValue;
+                String newLanguage = isChecked ? "es" : "en"; // Si el switch está activado, el idioma será español
 
-                // Cambiar el idioma de la aplicación según el estado del interruptor
-                if (isChecked) {
-                    LocaleHelper.setLocale(getActivity(), "es"); // Cambiar a español
-                } else {
-                    LocaleHelper.setLocale(getActivity(), "en"); // Cambiar a inglés
+                // Guardar el nuevo idioma en SharedPreferences
+                PreferencesHelper.saveLanguage(requireContext(), newLanguage);
+
+                // Recrear la actividad para que se apliquen los cambios de idioma
+                requireActivity().recreate();
+
+                // Cambiar el idioma de la actividad principal y actualizar el fragmento
+                if (getActivity() instanceof MainActivity) {
+                    MainActivity mainActivity = (MainActivity) getActivity();
+                    mainActivity.setLocale(newLanguage);  // Cambiar la configuración regional
+                    mainActivity.updateLanguageView();   // Actualizar la vista con el nuevo idioma
                 }
 
-                // Reiniciar la actividad para aplicar los cambios de idioma
-                getActivity().recreate();
-
-                // Indicar que el cambio de preferencia fue manejado con éxito
                 return true;
             });
+        }
+    }
+
+    /**
+     * Se ejecuta cuando el fragmento se inicia, estableciendo el título de la barra de acciones (ActionBar).
+     */
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // Cambia el título del ActionBar cuando el fragmento está visible
+        if (getActivity() != null) {
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(R.string.settings);
         }
     }
 }

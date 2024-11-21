@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+        <!-- Application name -->
+        <string name="app_name">tarea2nz</string> <!-- Name of the application -->
 
-        <!-- App name -->
-        <string name="app_name">task2nz</string>
+        <!-- Navigation and settings -->
+        <string name="open_drawer">Open menu</string> <!-- Text for opening the navigation drawer -->
+        <string name="close_drawer">Close menu</string> <!-- Text for closing the navigation drawer -->
+        <string name="header_image_desc">Profile image</string> <!-- Description of the profile image in the header -->
+        <string name="home">Home</string> <!-- Text for the home button in the navigation menu -->
+        <string name="settings">Settings</string> <!-- Text for the settings button -->
+        <string name="language">Language</string> <!-- Text for the language selection in the submenu -->
+        <string name="language_icon">Language icon</string> <!-- Description of the icon associated with language selection -->
 
-        <!-- Navigation menu descriptions -->
-        <string name="open_drawer">Open menu</string> <!-- Text to open the navigation menu -->
-        <string name="close_drawer">Close menu</string> <!-- Text to close the navigation menu -->
-        <string name="header_image_desc">Profile picture</string> <!-- Description of the profile image in the header -->
-
-        <!-- Main titles and sections -->
-        <string name="title">Super Mario Bros</string> <!-- Main title of the app -->
-        <string name="characters">Characters</string> <!-- Header for the character list -->
-        <string name="characters_list">Character list</string> <!-- Text describing the character list -->
+        <!-- Titles and main sections -->
+        <string name="title">Super Mario Bros</string> <!-- Main title of the application -->
+        <string name="characters">Characters</string> <!-- Header for the list of characters -->
+        <string name="characters_list">Character list</string> <!-- Text describing the list of characters -->
         <string name="detail_character">Character details</string> <!-- Title for the character details section -->
+
+        <!-- General messages -->
+        <string name="about_message">App developed by Natalia Zhilyakova.\nVersion 1.0</string> <!-- About section information -->
+        <string name="about_title">About</string> <!-- Title for the "About" dialog -->
+        <string name="ok_button">OK</string> <!-- Text for the confirmation button in dialogs -->
+        <string name="character_selected">"The character %1$s has been selected"</string> <!-- Message displayed when a character is selected -->
+        <string name="welcome_message">Welcome to the world of Mario</string> <!-- Welcome message on the main screen -->
+
+        <!-- Language configuration -->
+        <string name="summary_to_english">Switch to English.</string> <!-- Description for switching the app's language to English -->
+        <string name="summary_to_spanish">Switch to Spanish.</string> <!-- Description for switching the app's language to Spanish -->
+        <string name="spanish">Spanish</string> <!-- Text representing the Spanish language option -->
+        <string name="english">English</string> <!-- Text representing the English language option -->
+        <string name="select_language">Select language</string> <!-- Instruction to select a language -->
+
+        <!-- Image descriptions -->
+        <string name="Image_description">Character image</string> <!-- Description of a character's image -->
 
         <!-- Details for each character: name, description, and abilities -->
         <!-- Mario -->
@@ -55,20 +75,5 @@
         <string name="koopa_name">Koopa Troopa</string> <!-- Name of Koopa Troopa -->
         <string name="koopa_description">Soldier under Bowser command</string> <!-- Brief description of Koopa Troopa -->
         <string name="koopa_abilities">Hides in its shell for protection, Some can fly (Paratroopas)</string> <!-- Koopa Troopa's abilities -->
-
-        <!-- "About" section -->
-        <string name="about">About...</string> <!-- Text for the "About" section -->
-
-        <!-- Image descriptions -->
-        <string name="Image_description">character image</string> <!-- Description of the character image -->
-
-        <!-- Navigation and settings -->
-        <string name="home">Home</string> <!-- Text for the home button -->
-        <string name="settings">Settings</string> <!-- Text for the settings button -->
-        <string name="language">Language</string> <!-- Text for the language selection -->
-        <string name="select_language">select language</string> <!-- Instruction to select language -->
-        <string name="language_icon">language icon</string> <!-- Description of the language icon -->
-        <string name="spanish">Spanish</string> <!-- Option for Spanish language -->
-        <string name="english">English</string> <!-- Option for English language -->
 
 </resources>

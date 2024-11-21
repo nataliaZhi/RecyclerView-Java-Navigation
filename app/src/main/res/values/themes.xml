@@ -3,39 +3,27 @@
     <!-- Estilo base para el tema de la aplicación Super Mario -->
     <style name="Base.Theme.SuperMario" parent="Theme.Material3.DayNight.NoActionBar">
 
-<!--    Colores principales -->
-   <item name="colorPrimary">@color/colorPrimary</item>
-   <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
-   <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!--    Colores principales -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+         <!--  Colores secndarios      -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/textColor</item>
+
 
         <!-- SplashScreen cofiguration-->
         <item name="postSplashScreenTheme">@style/Base.Theme.SuperMario</item>
         <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
         <item name="android:windowSplashScreenAnimationDuration">1000</item>
         <item name="android:windowSplashScreenIconBackgroundColor">@color/colorPrimaryVariant</item>
-        <item name="android:windowSplashScreenBackground">@color/colorPrimary</item>
+        <item name="android:windowSplashScreenBackground">@color/colorPrimaryVariant</item>
 
 
-<!--     Colores secundarios -->
-<!--    <item name="colorSecondary">@color/background_detail_activity</item>-->
-<!--    <item name="colorSecondaryVariant">@color/black</item>-->
-<!--    <item name="colorOnSecondary">@color/text_color_detail_activity</item>-->
 
-<!--     Colores de la barra de estado y navegación -->
-<!--&lt;!&ndash;    <item name="android:statusBarColor">@color/background_main_activity</item>&ndash;&gt;-->
-<!--&lt;!&ndash;    <item name="android:navigationBarColor">@color/background_card</item>&ndash;&gt;-->
-
-<!--    Personalización de botones -->
-<!--    <item name="buttonStyle">@style/Widget.AppCompat.Button</item>-->
-<!--    <item name="colorButton">@color/background_card</item>-->
-<!--    <item name="colorOnButton">@color/white</item>-->
-
-<!--    Personalización de texto -->
-<!--&lt;!&ndash;    <item name="android:textColor">@color/black</item>&ndash;&gt;-->
-<!--&lt;!&ndash;    <item name="android:textColorPrimary">@color/black</item>&ndash;&gt;-->
-<!--&lt;!&ndash;    <item name="android:textColorSecondary">@color/white</item>&ndash;&gt;-->
-</style>
-
-
+    </style>
 
 </resources>

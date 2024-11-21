@@ -6,6 +6,7 @@
     android:padding="16dp"
     android:background="?attr/colorPrimary"
     >
+    <!-- ImageView para mostrar una imagen en el encabezado del Navigation Drawer -->
     <ImageView
         android:id="@+id/header_image"
         android:layout_width="wrap_content"
@@ -15,6 +16,5 @@
         android:contentDescription="@string/header_image_desc"
         android:focusable="true"
         android:src="@drawable/logo" />
-
 
 </LinearLayout>

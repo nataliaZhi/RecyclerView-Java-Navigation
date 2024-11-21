@@ -1,29 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <resources>
+    <!-- Tema de día -->
+    <!-- Azul para la barra de herramientas -->
+    <color name="colorPrimary">#2196F3</color>
+    <!-- Azul oscuro para la barra de estado -->
+    <color name="colorPrimaryVariant">#1976D2</color>
+    <!-- Blanco para el texto en la barra de herramientas -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <!-- Oro para los elementos de acento -->
+    <color name="colorSecondary">#FFD700</color>
+    <!-- Negro para el texto en los elementos de acento -->
+    <color name="colorOnSecondary">#000000</color>
 
-    <color name="colorPrimary">#D3673AB7</color>
-    <color name="colorPrimaryVariant">#4CAF50</color>
-    <color name="colorOnPrimary">@color/white</color>
+    <!-- Tema de noche -->
+    <!-- Azul oscuro para la barra de herramientas -->
+    <color name="colorPrimaryNight">#1976D2</color>
+    <!-- Negro para la barra de estado -->
+    <color name="colorPrimaryVariantNight">#000000</color>
+    <!-- Blanco para el texto en la barra de herramientas -->
+    <color name="colorOnPrimaryNight">#FFFFFF</color>
+    <!-- Oro oscuro para los elementos de acento -->
+    <color name="colorSecondaryNight">#DAA520</color>
+    <!-- Blanco para el texto en los elementos de acento -->
+    <color name="colorOnSecondaryNight">#FFFFFF</color>
 
+    <!-- Colores generales -->
+    <!-- Verde para el fondo principal -->
+    <color name="background">#4CAF50</color>
+    <!-- Azul índigo oscuro para el fondo principal en modo noche -->
+    <color name="backgroundNight">#303F9F</color>
+    <!-- Blanco para el texto principal -->
+    <color name="textColor">#FFFFFF</color>
+    <!-- Blanco para el texto principal en modo noche -->
+    <color name="textColorNight">#FFFFFF</color>
+
+    <!-- Colores para la pantalla principal -->
+    <!-- Verde para el fondo de la actividad principal -->
+    <color name="background_main_activity">#4CAF50</color>
+    <!-- Blanco para los subtítulos en la actividad principal -->
+    <color name="subtitle_text_main_activity">#FFFFFF</color>
+
+    <!-- Colores RecyclerView -->
+    <!-- Oro para el fondo de las tarjetas en RecyclerView -->
+    <color name="background_card">#FFD700</color>
+    <!-- Verde para el fondo del fragmento de lista -->
+    <color name="background_list_fragment">#4CAF50</color>
+
+    <!-- Colores para la pantalla de detalles -->
+    <!-- Verde oscuro para el fondo de la actividad de detalles -->
+    <color name="background_detail_activity">#4CAF50</color>
+    <!-- Amarillo para el texto del nombre en la actividad de detalles -->
+    <color name="text_name_color_detail_activity">#FFD700</color>
+    <!-- Blanco para el texto en la actividad de detalles -->
+    <color name="text_color_detail_activity">#FFFFFF</color>
+
+    <!-- Colores básicos -->
+    <!-- Negro -->
     <color name="black">#FF000000</color>
+    <!-- Blanco -->
     <color name="white">#FFFFFFFF</color>
-    <color name="red">#F44336</color>
-
-
-
-  // colores para pantalla principal
-
-    <color name="background_main_activity">#D3673AB7</color>
-    <color name="subtitle_text_main_activity">#FFFFFFFF</color>
-
-    //colores recycler view
-    <color name="background_card">#4CAF50</color>
-
-
-    //colores pantalla de detalles
-    <color name="background_detail_activity">#6F4CAF50</color>
-    <color name="text_name_color_detail_activity">#9C27B0</color>
-    <color name="text_color_detail_activity">#FF000000</color>
-
+    <!-- Rojo -->
+    <color name="red">#FF0000</color>
 
 </resources>

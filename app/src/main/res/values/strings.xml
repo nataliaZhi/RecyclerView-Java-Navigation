@@ -2,16 +2,38 @@
     <!-- Nombre de la aplicación -->
     <string name="app_name">tarea2nz</string>
 
-    <!-- Descripciones de los elementos de la navegación del menú -->
+    <!-- Navegación y configuración -->
     <string name="open_drawer">Abrir menú</string> <!-- Texto para abrir el menú de navegación -->
     <string name="close_drawer">Cerrar menú</string> <!-- Texto para cerrar el menú de navegación -->
     <string name="header_image_desc">Imagen de perfil</string> <!-- Descripción de la imagen de perfil en el encabezado -->
+    <string name="home">Inicio</string> <!-- Texto para el botón de inicio en el menú de navegación -->
+    <string name="settings">Ajustes</string> <!-- Texto para el botón de configuración -->
+    <string name="language">Idioma</string> <!-- Texto para la selección de idioma en el submenú -->
+    <string name="language_icon">language icon</string> <!-- Descripción del icono asociado a la selección de idioma -->
 
     <!-- Títulos y secciones principales -->
     <string name="title">Super Mario Bros</string> <!-- Título principal de la aplicación -->
     <string name="characters">Personajes</string> <!-- Encabezado de la lista de personajes -->
     <string name="characters_list">Lista de personajes</string> <!-- Texto que describe la lista de personajes -->
     <string name="detail_character">Detalles del personaje</string> <!-- Título de la sección de detalles de un personaje -->
+
+    <!-- Mensajes generales -->
+    <string name="about_message">Aplicación desarrollada por Natalia Zhilyakova.\n Versión 1.0</string> <!-- Información "Acerca de" la app -->
+    <string name="about_title">Acerca de</string> <!-- Título del diálogo "Acerca de" -->
+    <string name="ok_button">OK</string> <!-- Texto para el botón de confirmación en diálogos -->
+    <string name="character_selected">"Se ha seleccionado el personaje %1$s"</string> <!-- Mensaje al seleccionar un personaje -->
+    <string name="welcome_message">Bienvenidos al mundo de Mario</string> <!-- Mensaje de bienvenida en la pantalla principal -->
+
+    <!-- Configuración de idioma -->
+    <string name="summary_to_english">Cambie a inglés.</string> <!-- Descripción para cambiar el idioma a inglés -->
+    <string name="summary_to_spanish">Cambie a español.</string> <!-- Descripción para cambiar el idioma a español -->
+    <string name="spanish">Español</string> <!-- Texto que representa la opción para el idioma español -->
+    <string name="english">Inglés</string> <!-- Texto que representa la opción para el idioma inglés -->
+    <string name="select_language">Selecciona idioma</string> <!-- Instrucción para seleccionar un idioma -->
+
+
+    <!-- Descripción de imágenes -->
+    <string name="Image_description">imagen de personaje</string> <!-- Descripción de la imagen de un personaje -->
 
     <!-- Detalles de cada personaje: nombre, descripción y habilidades -->
     <!-- Mario -->
@@ -54,18 +76,4 @@
     <string name="koopa_description">Soldado bajo el mando de Bowser</string> <!-- Breve descripción de Koopa Troopa -->
     <string name="koopa_abilities">Se oculta en su caparazón para protegerse, Algunos pueden volar (Paratroopas)</string> <!-- Habilidades de Koopa Troopa -->
 
-    <!-- Sección de "Acerca de" -->
-    <string name="about">Acerca de...</string> <!-- Texto para la sección de "Acerca de" -->
-
-    <!-- Descripción de imágenes -->
-    <string name="Image_description">imagen de personaje</string> <!-- Descripción de la imagen de un personaje -->
-
-    <!-- Navegación y configuración -->
-    <string name="home">Home</string> <!-- Texto para el botón de inicio -->
-    <string name="settings">Settings</string> <!-- Texto para el botón de configuración -->
-    <string name="language">Idioma</string> <!-- Texto para la selección de idioma -->
-    <string name="select_language">selecciona idioma</string> <!-- Instrucción para seleccionar idioma -->
-    <string name="language_icon">language icon</string> <!-- Descripción del icono de idioma -->
-    <string name="spanish">Español</string> <!-- Opción de idioma español -->
-    <string name="english">Ingles</string> <!-- Opción de idioma inglés -->
 </resources>

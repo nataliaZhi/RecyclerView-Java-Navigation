@@ -1,23 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <!-- Opción Home en el menú principal -->
+    <!-- Elemento del menú: Inicio -->
     <item
         android:id="@+id/nav_home"
-        android:title="@string/home" />
+        android:icon="@drawable/nav_home"
+        android:title="@string/home"
+        app:destination="@id/characterListFragment" />
 
-    <!-- Opción Settings en el menú principal, con un submenu dentro -->
+    <!-- Elemento del menú: Configuración -->
     <item
         android:id="@+id/nav_settings"
+        android:icon="@drawable/nav_settings"
         android:title="@string/settings">
-
-        <!-- Submenú dentro de Settings -->
+        <!-- Submenú para configuraciones adicionales -->
         <menu>
-            <!-- Opción Language dentro de Settings -->
+            <!-- Ítem del submenú: Cambiar idioma -->
             <item
                 android:id="@+id/nav_language"
+                android:icon="@drawable/nav_language"
                 android:title="@string/language" />
         </menu>
     </item>
 
 </menu>
+
+
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto">-->
+
+<!--    &lt;!&ndash; Elemento del menú: Inicio &ndash;&gt;-->
+<!--    <item-->
+<!--        android:id="@+id/nav_home"-->
+<!--        android:icon="@drawable/nav_home"-->
+<!--        android:title="@string/home"-->
+<!--        app:destination="@id/characterListFragment" />-->
+
+<!--    &lt;!&ndash; Elemento del menú: Configuración con submenú &ndash;&gt;-->
+<!--    <item-->
+<!--        android:id="@+id/nav_settings"-->
+<!--        android:icon="@drawable/nav_settings"-->
+<!--        android:title="@string/settings"-->
+<!--        app:menu="@menu/submenu_language" /> &lt;!&ndash; Referencia al submenú &ndash;&gt;-->
+
+<!--</menu>-->

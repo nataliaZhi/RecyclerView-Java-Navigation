@@ -1,7 +1,24 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<resources>
+
     <style name="Base.Theme.Tarea2nz" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <!--    Colores principales -->
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariantNight</item>
+        <item name="colorOnPrimary">@color/colorOnPrimaryNight</item>
+
+        <!--  Colores secndarios      -->
+        <item name="colorSecondary">@color/colorSecondaryNight</item>
+        <item name="colorOnSecondary">@color/colorOnSecondaryNight</item>
+        <item name="android:windowBackground">@color/backgroundNight</item>
+        <item name="android:textColor">@color/textColorNight</item>
+
+
+        <!-- SplashScreen cofiguration-->
+        <item name="postSplashScreenTheme">@style/Base.Theme.SuperMario</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="android:windowSplashScreenAnimationDuration">1000</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/colorPrimaryVariant</item>
+        <item name="android:windowSplashScreenBackground">@color/colorPrimaryVariant</item>
     </style>
 </resources>

@@ -1,24 +1,20 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <!-- Sección para la vinculación de datos con la vista -->
     <data>
-
+        <!-- Declara la variable 'character' que representa un objeto de tipo 'Character' -->
         <variable
             name="character"
             type="dam.pmdm.tarea2nz.supermario.Character" />
     </data>
-
+    <!-- CardView: Contenedor con bordes redondeados y sombra para crear una tarjeta estilizada -->
     <androidx.cardview.widget.CardView
-
-
+        style="@style/CardViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginVertical="8dp"
-        style="@style/CardViewStyle"
+        android:layout_marginVertical="8dp">
 
-        >
-
-
+        <!-- LinearLayoutCompat: Contenedor que organiza los elementos de forma horizontal -->
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -26,6 +22,7 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
+            <!-- TextView: Muestra el nombre del personaje -->
             <TextView
                 android:id="@+id/name"
                 android:layout_width="wrap_content"
@@ -37,6 +34,7 @@
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
+            <!-- ImageView: Muestra la imagen del personaje -->
             <ImageView
                 android:id="@+id/image"
                 android:layout_width="match_parent"

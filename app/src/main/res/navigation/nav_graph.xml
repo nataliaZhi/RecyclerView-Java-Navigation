@@ -1,27 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- Archivo de navegación para definir los destinos y acciones entre ellos en la aplicación -->
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
     app:startDestination="@id/characterListFragment">
 
+    <!-- Fragmento: Configuración -->
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="dam.pmdm.tarea2nz.supermario.SettingsFragment"
+        android:label="SettingsFragment">
+        <!-- Acción para navegar de SettingsFragment al CharacterListFragment -->
+        <action
+            android:id="@+id/action_settingsFragment_to_characterListFragment"
+            app:destination="@id/characterListFragment" />
+    </fragment>
+
+    <!-- Fragmento: Lista de personajes -->
     <fragment
         android:id="@+id/characterListFragment"
         android:name="dam.pmdm.tarea2nz.supermario.CharacterListFragment"
-        android:label="CharacterListFragment" >
+        android:label="CharacterListFragment">
+        <!-- Acción para navegar de CharacterListFragment al CharacterDetailFragment -->
         <action
             android:id="@+id/action_characterListFragment_to_characterDetailFragment"
             app:destination="@id/characterDetailFragment" />
     </fragment>
+
+    <!-- Fragmento: Detalle del personaje -->
     <fragment
         android:id="@+id/characterDetailFragment"
         android:name="dam.pmdm.tarea2nz.supermario.CharacterDetailFragment"
-        android:label="CharacterDetailFragment" >
+        android:label="CharacterDetailFragment">
+        <!-- Acción para navegar de CharacterDetailFragment al CharacterListFragment -->
         <action
             android:id="@+id/action_characterDetailFragment_to_characterListFragment"
             app:destination="@id/characterListFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/settingsFragment"
-        android:name="dam.pmdm.tarea2nz.supermario.SettingsFragment"
-        android:label="SettingsFragment" />
+
 </navigation>
